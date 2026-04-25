@@ -1,99 +1,194 @@
-/* Resetare de bază */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Inter:wght@400;500;600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --dark: #1a1a2e;
+    --darker: #0f0f1a;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --text: #1a1a2e;
+    --muted: #6c757d;
+    --border: #e0e0e0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e0e0e0;
-    margin: 0;
-    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f0f2f5;
+    color: var(--text);
 }
 
-/* Header fixat sus */
 header {
-    background-color: #a3a3a3;
-    padding: 15px 50px;
-    border-bottom: 2px solid #888;
+    background: linear-gradient(135deg, var(--darker) 0%, var(--dark) 100%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
-.header-container {
+.header-top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    gap: 20px;
+    padding: 12px 40px;
+}
+
+.logo-wrap {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.brand-name {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.brand-name span { color: var(--accent); }
+
+.header-search {
+    flex: 1;
+    display: flex;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.search-bar {
-    flex-grow: 0.5;
+.header-search input {
+    flex: 1;
+    padding: 10px 18px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    outline: none;
+}
+
+.header-search button {
+    padding: 10px 18px;
+    background: var(--accent);
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav.main-nav {
+    background: rgba(255,255,255,0.06);
+    padding: 0 40px;
     display: flex;
 }
 
-.search-bar input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #ccc;
-}
-
-/* Grid-ul de Categorii (Modificat pentru Desktop) */
-.categories-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr); /* 8 coloane pe un singur rând */
-    gap: 10px;
-    padding: 20px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.category-item {
-    background: linear-gradient(145deg, #444, #222);
-    color: white;
-    padding: 15px;
-    text-align: center;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 12px;
-    border: 2px solid #666;
+nav.main-nav a {
+    color: rgba(255,255,255,0.75);
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
     transition: 0.3s;
 }
 
-.category-item:hover {
-    transform: translateY(-5px);
-    border-color: #fff;
+nav.main-nav a:hover { color: #fff; background: rgba(255,255,255,0.1); }
+
+.page { max-width: 1280px; margin: 0 auto; padding: 30px 40px; }
+
+.promo-banner {
+    background: linear-gradient(135deg, var(--dark), #2d1b69);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 
-/* Produsele - 4 pe rând pe ecran mare */
-.products-container {
+.promo-text h2 { font-family: 'Rajdhani', sans-serif; font-size: 32px; margin-bottom: 10px; }
+
+.promo-badge {
+    background: var(--accent2);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 12px;
+}
+
+.section-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 15px;
+}
+
+.products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Aici e magia pentru desktop */
-    gap: 20px;
-    padding: 20px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr); /* 3 pe rând pe desktop */
+    gap: 25px;
 }
 
 .product-card {
-    background: white;
-    height: 250px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Paginare centrală */
-.pagination {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: 0.3s;
     display: flex;
-    justify-content: center;
-    padding: 30px;
-    gap: 10px;
+    flex-direction: column;
 }
 
-.pagination button {
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    background: white;
-    border-radius: 5px;
+.product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+
+.product-img {
+    width: 100%;
+    height: 250px;
+    background: #f9f9f9;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Păstrează proporțiile pozei */
+}
+
+.product-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+
+.product-info h3 { font-size: 16px; margin-bottom: 10px; height: 40px; overflow: hidden; }
+
+.product-info p { font-size: 13px; color: var(--muted); margin-bottom: 20px; }
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.price { font-family: 'Rajdhani', sans-serif; font-size: 22px; font-weight: 700; color: var(--accent2); }
+
+.add-btn {
+    background: var(--dark);
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 13px;
 }
 
-.pagination button.active {
-    background-color: #333;
-    color: white;
+.pagination { display: flex; justify-content: center; gap: 10px; margin-top: 40px; }
+
+.pg-btn {
+    width: 40px; height: 40px; border: 1px solid var(--border); background: #fff; cursor: pointer; border-radius: 8px;
 }
+
+.pg-btn.active { background: var(--dark); color: #fff; }
+
+footer { background: var(--darker); color: rgba(255,255,255,0.5); padding: 40px; text-align: center; }
