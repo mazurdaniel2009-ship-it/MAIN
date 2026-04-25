@@ -39,7 +39,6 @@ const products = [
 
 const grid = document.getElementById('prodGrid');
 
-// Funcția de afișare
 function displayProducts() {
   grid.innerHTML = "";
   products.forEach(p => {
@@ -62,5 +61,4 @@ function displayProducts() {
   });
 }
 
-// Apelăm funcția
 displayProducts();
