@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptopuri — ElectraShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo-wrap"><img src="logo.png" alt="ElectraShop"></div>
+            <div class="brand-name">Electra<span>Shop</span></div>
+            <div class="header-search">
+                <input type="text" placeholder="Caută produse, mărci...">
+                <button>🔍</button>
+            </div>
+            <div class="header-actions">
+                <button id="loginBtn" class="header-btn"> Login</button>
+                <button id="logoutBtn" class="header-btn" style="display:none;">🚪 Deconectare</button>
+                <span id="userEmail" class="user-email" style="display:none;"></span>
+                <div class="cart">🛒 Coș (<span id="cartCount">0</span>)</div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Acasă</a>
+            <a href="laptopuri.html" class="active">Laptopuri</a>
+            <a href="calculatoare.html">Calculatoare</a>
+            <a href="apple.html">Apple</a>
+            <a href="monitoare.html">Monitoare</a>
+            <a href="componente-pc.html">Componente PC</a>
+            <a href="gaming.html">Gaming</a>
+            <a href="imprimante.html">Imprimante</a>
+            <a href="oferte.html">Oferte</a>
+        </nav>
+    </header>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Autentificare</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="exemplu@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="password">Parolă</label>
+                    <input type="password" id="password" required placeholder="Introdu parola">
+                </div>
+                <button type="submit" class="login-submit">Autentificare</button>
+                <p class="signup-link">Nu ai cont? <a href="#">Înregistrează-te</a></p>
+            </form>
+        </div>
+    </div>
+
+    <main class="page">
+        <div class="category-header">
+            <h1>Laptopuri</h1>
+            <p>Cele mai performante laptopuri pentru lucru, gaming și creativitate</p>
+        </div>
+        <div id="prodGrid" class="products-grid"></div>
+        <div class="pagination">
+            <button class="pg-btn">‹</button><button class="pg-btn active">1</button>
+            <button class="pg-btn">2</button><button class="pg-btn">3</button>
+            <button class="pg-btn">...</button><button class="pg-btn">5</button><button class="pg-btn">›</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Electra Shop | Chișinău, Moldova | Tel: +373 067372760 | © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="laptopuri.js"></script>
+</body>
+</html>
