@@ -1,0 +1,38 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "desc": "Titanium design, A17 Pro chip, cel mai bun sistem de camere.",
+    "price": "24 900 MDL",
+    "img": "iphone15promax.png"
+  },
+  {
+    "name": "MacBook Air M2",
+    "desc": "Chip M2, 8GB RAM, 256GB SSD, ecran Liquid Retina 13.6 inch.",
+    "price": "19 500 MDL",
+    "img": "macbook-air-m2.png"
+  },
+  {
+    "name": "Apple iPad Pro 2024 13",
+    "desc": "Chip M2, 128GB, ecran Liquid Retina XDR, 5G.",
+    "price": "18 200 MDL",
+    "img": "ipad-pro.png"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "desc": "GPS + Cellular, 45mm, Always-On Retina display.",
+    "price": "8 900 MDL",
+    "img": "apple-watch.png"
+  },
+  {
+    "name": "AirPods Pro 2",
+    "desc": "Active Noise Cancellation, Adaptive Audio, USB-C.",
+    "price": "4 200 MDL",
+    "img": "airpods-pro.png"
+  },
+  {
+    "name": "MacBook Pro 14 M3",
+    "desc": "Chip M3 Pro, 18GB RAM, 512GB SSD, ecran Liquid Retina XDR.",
+    "price": "32 500 MDL",
+    "img": "macbook-pro-14.png"
+  }
+]

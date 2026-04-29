@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Laptop ASUS VivoBook 15 - REDUCERE",
+    "desc": "Intel i5, 16GB RAM, 512GB SSD. Preț redus cu 15%!",
+    "price": "6 366 MDL",
+    "img": "asus-vivobook.png"
+  },
+  {
+    "name": "Monitor Gaming Samsung 27 - PROMO",
+    "desc": "144Hz, 1ms, 2K. Ofertă limitată -20%!",
+    "price": "3 360 MDL",
+    "img": "monitor-samsung.png"
+  },
+  {
+    "name": "Căști Sony WH-1000XM5 - SUPER OFERTĂ",
+    "desc": "Noise cancelling premium. Reducere 25%!",
+    "price": "5 100 MDL",
+    "img": "sony-headphones.png"
+  },
+  {
+    "name": "Tastatură Mecanică RGB - REDUCERE",
+    "desc": "Switch-uri roșii, iluminare RGB. -30%!",
+    "price": "875 MDL",
+    "img": "keyboard-rgb.png"
+  },
+  {
+    "name": "Mouse Gaming Logitech - PROMO",
+    "desc": "Wireless, 25K DPI. Ofertă specială!",
+    "price": "1 440 MDL",
+    "img": "logitech-gpro.png"
+  },
+  {
+    "name": "SSD NVMe 1TB - REDUCERE",
+    "desc": "Viteze mari, PCIe 4.0. Preț redus cu 20%!",
+    "price": "1 200 MDL",
+    "img": "ssd-nvme.png"
+  }
+]

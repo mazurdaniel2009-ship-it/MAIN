@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Placă Video RTX 4070",
+    "desc": "12GB GDDR6X, ray tracing, DLSS 3, perfectă pentru gaming 4K.",
+    "price": "14 500 MDL",
+    "img": "rtx-4070.png"
+  },
+  {
+    "name": "Procesor AMD Ryzen 7 7800X3D",
+    "desc": "8 nuclee, 16 thread-uri, cache 96MB, cel mai bun pentru gaming.",
+    "price": "7 200 MDL",
+    "img": "ryzen-7800x3d.png"
+  },
+  {
+    "name": "Memorie RAM DDR5 32GB",
+    "desc": "2x16GB, 6000MHz, CL30, RGB, compatibilă cu AMD EXPO.",
+    "price": "2 400 MDL",
+    "img": "ram-ddr5.png"
+  },
+  {
+    "name": "SSD NVMe Samsung 990 Pro 2TB",
+    "desc": "Viteze de citire/scriere 7450/6900 MB/s, PCIe 4.0.",
+    "price": "2 800 MDL",
+    "img": "ssd-samsung-990.png"
+  },
+  {
+    "name": "Placă de Bază ASUS ROG Strix B650",
+    "desc": "Socket AM5, DDR5, WiFi 6E, Bluetooth 5.3, PCIe 5.0.",
+    "price": "3 600 MDL",
+    "img": "motherboard-asus.png"
+  },
+  {
+    "name": "Sursă Corsair RM850x 850W",
+    "desc": "80 Plus Gold, complet modulară, silențioasă, 10 ani garanție.",
+    "price": "2 100 MDL",
+    "img": "psu-corsair.png"
+  }
+]

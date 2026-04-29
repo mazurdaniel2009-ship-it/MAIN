@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Imprimantă HP LaserJet Pro",
+    "desc": "Laser monocrom, 29 ppm, WiFi, duplex automat, ideală pentru birou.",
+    "price": "2 800 MDL",
+    "img": "hp-laserjet.png"
+  },
+  {
+    "name": "Imprimantă Canon PIXMA TS",
+    "desc": "Inkjet color, 15 ppm, WiFi, scanare, copiere, perfectă pentru casă.",
+    "price": "1 200 MDL",
+    "img": "canon-pixma.png"
+  },
+  {
+    "name": "Imprimantă Epson EcoTank L3250",
+    "desc": "Sistem ink tank, 33 ppm, WiFi, cost redus per pagină.",
+    "price": "3 600 MDL",
+    "img": "epson-ecotank.png"
+  },
+  {
+    "name": "Imprimantă Brother MFC-L2710",
+    "desc": "Multifuncțională laser, fax, 36 ppm, duplex, WiFi.",
+    "price": "3 200 MDL",
+    "img": "brother-mfc.png"
+  },
+  {
+    "name": "Imprimantă HP DeskJet 2720",
+    "desc": "Inkjet color, compactă, WiFi, HP Smart app, economică.",
+    "price": "800 MDL",
+    "img": "hp-deskjet.png"
+  },
+  {
+    "name": "Imprimantă Canon imageCLASS",
+    "desc": "Laser color, 27 ppm, WiFi, duplex, touchscreen.",
+    "price": "4 500 MDL",
+    "img": "canon-imageclass.png"
+  }
+]

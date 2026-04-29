@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Consolă PlayStation 5",
+    "desc": "Experiență de gaming 4K, 825GB SSD, controller DualSense.",
+    "price": "10 500 MDL",
+    "img": "ps5.png"
+  },
+  {
+    "name": "Xbox Series X",
+    "desc": "12 TFLOPS, 1TB SSD, Quick Resume, Game Pass inclus.",
+    "price": "9 800 MDL",
+    "img": "xbox-series-x.png"
+  },
+  {
+    "name": "Controller PS5 DualSense",
+    "desc": "Feedback haptic, triggere adaptive, microfon integrat.",
+    "price": "1 200 MDL",
+    "img": "dualsense.png"
+  },
+  {
+    "name": "Căști Gaming SteelSeries Arctis 7",
+    "desc": "Wireless, surround 7.1, autonomie 24h, microfon retractabil.",
+    "price": "2 400 MDL",
+    "img": "steelseries-arctis.png"
+  },
+  {
+    "name": "Mouse Gaming Logitech G Pro X",
+    "desc": "Wireless, 25K DPI, ultra-ușor 63g, HERO sensor.",
+    "price": "1 800 MDL",
+    "img": "logitech-gpro.png"
+  },
+  {
+    "name": "Tastatură Gaming Corsair K70",
+    "desc": "Mechanical Cherry MX, RGB per-key, aluminum frame.",
+    "price": "2 200 MDL",
+    "img": "corsair-k70.png"
+  }
+]

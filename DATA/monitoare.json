@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Monitor Gaming Samsung 27",
+    "desc": "Rată de refresh 144Hz, timp de răspuns 1ms, rezoluție 2K.",
+    "price": "4 200 MDL",
+    "img": "monitor-samsung.png"
+  },
+  {
+    "name": "Monitor LG UltraWide 34",
+    "desc": "Format 21:9, rezoluție 3440x1440, IPS, HDR10.",
+    "price": "6 800 MDL",
+    "img": "monitor-lg-ultrawide.png"
+  },
+  {
+    "name": "Monitor ASUS ROG Swift 27",
+    "desc": "240Hz, G-Sync, 1ms, QHD, perfect pentru gaming competitiv.",
+    "price": "8 900 MDL",
+    "img": "monitor-asus-rog.png"
+  },
+  {
+    "name": "Monitor Dell UltraSharp 27",
+    "desc": "4K UHD, IPS, 99% sRGB, ideal pentru design și editare foto.",
+    "price": "7 500 MDL",
+    "img": "monitor-dell-ultrasharp.png"
+  },
+  {
+    "name": "Monitor AOC 24 Gaming",
+    "desc": "165Hz, 1ms, FreeSync, Full HD, raport calitate-preț excelent.",
+    "price": "2 800 MDL",
+    "img": "monitor-aoc.png"
+  },
+  {
+    "name": "Monitor MSI Optix 32",
+    "desc": "Curved 1500R, 144Hz, VA panel, 1ms, QHD.",
+    "price": "5 600 MDL",
+    "img": "monitor-msi-optix.png"
+  }
+]

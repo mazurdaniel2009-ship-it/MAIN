@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Laptop Asus Vivobook Go 15",
+    "desc": "Procesor Intel i5, 16GB RAM, 512GB SSD. Perfect pentru lucru și studii.",
+    "price": "7 490 MDL",
+    "img": "asus-vivobook.png"
+  },
+  {
+    "name": "Laptop HP Pavilion 14",
+    "desc": "AMD Ryzen 5, 8GB RAM, 256GB SSD, ecran Full HD IPS.",
+    "price": "6 200 MDL",
+    "img": "hp-pavilion.png"
+  },
+  {
+    "name": "Laptop Lenovo IdeaPad 3",
+    "desc": "Intel Core i3, 8GB RAM, 256GB SSD, Windows 11.",
+    "price": "5 800 MDL",
+    "img": "lenovo-ideapad.png"
+  },
+  {
+    "name": "Laptop Dell Inspiron 15",
+    "desc": "Intel Core i7, 16GB RAM, 512GB SSD, placă video dedicată.",
+    "price": "9 500 MDL",
+    "img": "dell-inspiron.png"
+  },
+  {
+    "name": "Laptop Acer Aspire 5",
+    "desc": "AMD Ryzen 7, 12GB RAM, 512GB SSD, ecran 15.6 inch.",
+    "price": "7 100 MDL",
+    "img": "acer-aspire.png"
+  },
+  {
+    "name": "Laptop MSI Modern 14",
+    "desc": "Intel Core i5, 8GB RAM, 512GB NVMe SSD, ultra-subțire.",
+    "price": "8 300 MDL",
+    "img": "msi-modern.png"
+  }
+]

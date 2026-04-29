@@ -1,0 +1,38 @@
+[
+  {
+    "name": "PC Gaming RGB Pro",
+    "desc": "Intel Core i5-12400F, RTX 3060, 16GB RAM, 512GB SSD.",
+    "price": "15 900 MDL",
+    "img": "pc-gaming-rgb.png"
+  },
+  {
+    "name": "PC Office Basic",
+    "desc": "AMD Ryzen 3, 8GB RAM, 256GB SSD, grafică integrată.",
+    "price": "5 500 MDL",
+    "img": "pc-office.png"
+  },
+  {
+    "name": "All-in-One HP 24",
+    "desc": "Intel Core i3, 8GB RAM, 256GB SSD, ecran 23.8 inch Full HD.",
+    "price": "8 200 MDL",
+    "img": "hp-allinone.png"
+  },
+  {
+    "name": "PC Workstation Pro",
+    "desc": "Intel Core i7, 32GB RAM, 1TB SSD, RTX 3070.",
+    "price": "22 500 MDL",
+    "img": "pc-workstation.png"
+  },
+  {
+    "name": "Mini PC Intel NUC",
+    "desc": "Intel Core i5, 16GB RAM, 512GB SSD, compact și silențios.",
+    "price": "7 800 MDL",
+    "img": "intel-nuc.png"
+  },
+  {
+    "name": "PC Gaming Extreme",
+    "desc": "AMD Ryzen 9, RTX 4070, 32GB RAM, 1TB NVMe SSD.",
+    "price": "28 900 MDL",
+    "img": "pc-gaming-extreme.png"
+  }
+]
